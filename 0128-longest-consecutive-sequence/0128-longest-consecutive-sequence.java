@@ -20,6 +20,7 @@ class Solution {
                 }
                 longest = Math.max(longest, count);
             }
+            if (count > nums.length / 2) break;
             count = 1;
             
         }
